@@ -1,0 +1,36 @@
+:root {
+    --GameColor: rgb(40, 4, 75)
+    
+}
+
+.container {
+    width: 255px;
+    text-align: center;
+    font-family: system-ui, -apple-system;
+    font-weight: 500;
+ 
+}
+.title {
+    margin: 5px 0px;
+    padding: 5px 0px;
+    background-color: var(--GameColor);
+    color: white;
+    cursor: pointer;
+}
+span {
+    color: yellow;
+}
+.square {
+    background-color: var(--GameColor);
+    width: 80px;
+    height: 80px;
+   float: left;
+   margin: 2px;
+   cursor: pointer;
+   color: white;
+   font-size: 50px;
+
+}
+.square:hover {
+    background-color: rgb(153, 0, 255);
+}
